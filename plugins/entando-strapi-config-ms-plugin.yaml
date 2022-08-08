@@ -1,0 +1,7 @@
+image: kamleshbobde/strapi-config-widget-test:0.0.2
+dbms: none
+ingressPath: "/strapi-config-api"
+healthCheckPath: "/actuator/health"
+roles:
+  - "et-first-role"
+  - "et-second-role"
